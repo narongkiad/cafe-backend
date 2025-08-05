@@ -6,10 +6,10 @@ import (
     "time"
 
     "github.com/gofiber/fiber/v2"
-    "your-module-name/internal/auth/handler"
-    "your-module-name/internal/auth/usecase"
-    "your-module-name/internal/infrastructure/database/postgres"
-    "your-module-name/internal/infrastructure/router"
+    "github.com/narongkiad/cafe-backend/internal/auth/handler"
+    "github.com/narongkiad/cafe-backend/internal/auth/usecase"
+    "github.com/narongkiad/cafe-backend/internal/infrastructure/database"
+    "github.com/narongkiad/cafe-backend/internal/infrastructure/router"
 )
 
 func main() {

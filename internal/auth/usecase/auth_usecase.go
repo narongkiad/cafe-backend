@@ -6,9 +6,9 @@ import (
     "time"
 
     "golang.org/x/crypto/bcrypt"
-    "your-module-name/internal/auth/domain"
-    "your-module-name/internal/auth/repository"
-    "your-module-name/pkg/jwt"
+    "github.com/narongkiad/cafe-backend/internal/auth/domain"
+    "github.com/narongkiad/cafe-backend/internal/auth/repository"
+    "github.com/narongkiad/cafe-backend/pkg/jwt"
 )
 
 // AuthUsecase defines the interface for auth usecases

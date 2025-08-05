@@ -2,7 +2,7 @@ package repository
 
 import (
     "context"
-    "your-module-name/internal/auth/domain"
+    "github.com/narongkiad/cafe-backend/internal/auth/domain"
 )
 
 // AuthRepository defines the interface for data access

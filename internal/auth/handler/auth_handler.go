@@ -1,7 +1,7 @@
 package handler
 
 import (
-    "your-module-name/internal/auth/usecase"
+    "github.com/narongkiad/cafe-backend/internal/auth/usecase"
     "github.com/gofiber/fiber/v2"
 )
 

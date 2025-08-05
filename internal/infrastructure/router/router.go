@@ -2,7 +2,7 @@ package router
 
 import (
     "github.com/gofiber/fiber/v2"
-    "your-module-name/internal/auth/handler"
+    "github.com/narongkiad/cafe-backend/internal/auth/handler"
 )
 
 // SetupAuthRoutes sets up the authentication routes

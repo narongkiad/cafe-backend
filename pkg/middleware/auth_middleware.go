@@ -2,7 +2,7 @@ package middleware
 
 import (
     "strings"
-    "your-module-name/pkg/jwt"
+    "github.com/narongkiad/cafe-backend/pkg/jwt"
 
     "github.com/gofiber/fiber/v2"
 )

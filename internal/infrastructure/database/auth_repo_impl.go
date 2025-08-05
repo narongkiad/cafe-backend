@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"your-module-name/internal/auth/domain"
+	"github.com/narongkiad/cafe-backend/internal/auth/domain"
 
 	// Replace with your actual database driver
 	_ "github.com/lib/pq"
@@ -16,7 +16,7 @@ type authRepositoryImpl struct {
 }
 
 // NewAuthRepository creates a new instance of AuthRepository
-func NewAuthRepository(db *sql.DB) repository.AuthRepository {
+func NewAuthRepository(db *sql.DB) *authRepositoryImpl {
     return &authRepositoryImpl{db: db}
 }
 
